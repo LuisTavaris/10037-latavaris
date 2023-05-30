@@ -1,0 +1,123 @@
+body {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #FFF;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 30px;
+}
+
+.Texto {
+  text-align: center;
+  color: #000;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.text {
+  margin-top: 5px;
+}
+
+.Boton {
+  background-color: #ebebeb;
+  border-style: none;
+  border-color: rgba(121, 121, 121, 1);
+  border-radius: 5px;
+  color: black;
+  width: 153px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* HEADER   */
+#header {
+  top: 20px;
+  height: 170px;
+  background-color: rgba(0, 255, 255);
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(121, 121, 121, 1);
+  border-radius: 10px;
+}
+
+/* navBar  */
+#navBar {
+  margin-top: 30px;
+
+}
+
+/* leftMenu  */
+#leftMenu {
+  padding:35px 5px; /*Para mover los botones del menu derecho*/
+  height: 320px;
+  background-color: rgba(255, 255, 255);
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(121, 121, 121, 1);
+  border-radius: 10px;
+}
+
+/* content */
+#content {
+  height: 320px;
+  background-color: rgba(51, 153, 51);
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(121, 121, 121, 1);
+  border-radius: 10px;
+}
+
+/* rigthMenu */
+#rightMenu {
+  height: 320px;
+  background-color: rgba(0, 0, 0);
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(121, 121, 121, 1);
+  border-radius: 10px;
+}
+
+
+.video {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+/* footer  */
+#footer {
+  padding: 15px;
+  margin-top: 10px;
+  height: auto;
+  background-color: rgba(255, 255, 0);
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(121, 121, 121, 1);
+  border-radius: 10px;
+}
+
+#Espe_img{
+
+  padding-top: 48px;
+  height: 119px;
+  width: 300px;
+
+}
+
+/*Desactivar los botones de los grupos de la lista desplegable*/
+.disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.colorDelTexto{
+  color: skyblue;
+}
